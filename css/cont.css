@@ -1,0 +1,86 @@
+body {
+  background-image: url(imagenes/fondocurr.jpg);
+   background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+
+
+}
+.container {
+    min-height: 80vh;
+    max-height: 80vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+  width: 30%; /* Tamaño deseado del contenedor izquierdo */
+  float: left;
+ background-color: rgba(255, 255, 255, 0.0); /* Color blanco con transparencia del 50% */
+  
+  flex: 1;
+      padding: 50px;
+      
+      text-align: center;
+
+  
+
+}
+
+.right-container {
+  width: 100%; /* Tamaño deseado del contenedor derecho */
+ background-color: rgba(255, 255, 255, 0.0); 
+ flex: 1;
+      padding: 50px;
+     
+      text-align: center;
+
+}
+.progreso-barra {
+      background-color: #ddd;
+      height: 20px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+}
+    
+    .progreso {
+      height: 100%;
+      background-color: #4caf50;
+      border-radius: 10px;
+    }
+.button-container{
+  align-content: right;
+  width: 50%;
+  padding: 70px;
+
+}
+.head, h1, h2{
+  text-align: center;
+  color:white;
+
+}
+.ul, li{
+  color: white;
+}
+.profile, profile-info {
+  border: 1px solid #ddd;
+   }
+  
+  #contactoWhatsapp{
+    width: 64px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;}
+  
+
+  /* border: 1px solid #ddd;*/
